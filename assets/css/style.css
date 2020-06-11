@@ -6,6 +6,51 @@ header {
 
 
 
+#main-image {
+
+           height: 500px;
+           width:100%;
+           background: url("../imgs/IMG_2980.JPG") no-repeat center center;
+           animation-name: fade;
+           animation-duration: 4s;
+           animation-timing-function: fade-out; 
+           animation-delay: 4s;
+           animation-direction: alternate;
+           animation-iteration-count: infinite;
+           animation-fill-mode: none;
+           animation-play-state: running;
+           -moz-transition: all .4s fade-out;
+           -webkit-transition: all .4s fade-out;
+           }
+
+
+/*
+ background: url("../imgs/IMG_1297.JPG");
+             background: url("../imgs/IMG_3116.JPG");
+            background: url("../imgs/IMG_3658.JPG");
+*/
+
+
+ #main-outer {
+           height: 500px;
+           width:100%;
+           overflow: hidden;
+           position: relative;}
+
+          @keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
 h1 {font-family: "cinzel decorative";
 color: black;
 animation-name: fadeInUp;
@@ -29,7 +74,7 @@ animation-duration: 4s;
 
 
 
-#menu {
+#nav li  {
     background-color: black;
     overflow: hidden;
     list-style-type: none;
@@ -55,7 +100,7 @@ animation-duration: 4s;
 }
 
 
-.hvr-hollow {
+#nav li {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -76,36 +121,3 @@ animation-duration: 4s;
 
 
 
-
-/* The element to apply the animation to */
-.carousel-inner {
-animation-name: fade;
-animation-duration: 5s; 
-animation-timing-function: fade-out; 
-  animation-delay: 0s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-fill-mode: none;
-  animation-play-state: running; 
-transition: transform;
-position: relative;
-}
-  
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-}
-  0%   {background: url ("https://e5edd7fc-f05c-4b1f-87cf-b00452180de0.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_2980.JPG");}
-  25%  {background: url ("https://e5edd7fc-f05c-4b1f-87cf-b00452180de0.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_1297.JPG");}
-  50%  {background: url ("https://e5edd7fc-f05c-4b1f-87cf-b00452180de0.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_3116.JPG");}
-  100% {background: url ("https://e5edd7fc-f05c-4b1f-87cf-b00452180de0.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_3658.JPG");}
-
-
-}
