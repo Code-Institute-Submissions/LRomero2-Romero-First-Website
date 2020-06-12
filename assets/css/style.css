@@ -21,6 +21,8 @@ header {
            animation-play-state: running;
            -moz-transition: all .4s fade-out;
            -webkit-transition: all .4s fade-out;
+          
+          
            }
 
 
@@ -45,9 +47,7 @@ header {
   100% {
     opacity: 1;
   }
-}
-
-
+          }
 
 
 
@@ -73,8 +73,14 @@ animation-duration: 4s;
 }
 
 
+/*
+nav {
+    background: linear-gradient(-180deg, black-stop1, white-stop2);
+}
+*/
 
-#nav li  {
+
+.nav-link  {
     background-color: black;
     overflow: hidden;
     list-style-type: none;
@@ -82,15 +88,17 @@ animation-duration: 4s;
     font-size: 150%;
     letter-spacing: 3px;
     margin: 1%;
+    text-decoration: none;
+    float: right;
 }
 
-#menu li{
+.nav-link {
     float: right;
     margin-right:2%;
    }
 
 
-#menu a {
+.nav-link  {
   float: right;
   text-align: center;
   padding: 14px 16px;
@@ -100,7 +108,8 @@ animation-duration: 4s;
 }
 
 
-#nav li {
+
+.nav-link {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -116,8 +125,4 @@ animation-duration: 4s;
 .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active {
   background: none;
 }
-
-
-
-
 
