@@ -56,9 +56,9 @@ h1 {font-family: "cinzel decorative";
 color: black;
 animation-name: fadeInUp;
 animation-delay: 1s;
-animation-duration: 5s;
-    transition-timing-function: ease-in;
-    animation-fill-mode: both;
+animation-duration: 7s;
+transition-timing-function: ease-in;
+animation-fill-mode: both;
 } 
 
 @keyframes fadeInUp {
@@ -72,6 +72,24 @@ animation-duration: 5s;
     transform: none;
   }
 }
+
+#overlay {
+  position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  transition: .7s ease-in;
+  opacity:1;
+  color: black;
+  font-size: 46px;
+  padding: 20px;
+  float: left;
+  height: 400px;
+}
+
+
+
+
+
 
 
 h {font-family: "cinzel decorative";
@@ -145,7 +163,7 @@ animation-duration: 5s;
 }
 
 
-
+/* Navbar */
 
 .nav-link {
     background: linear-gradient(rgba(108, 117, 125,1), rgba(248, 249, 250,0.1));
@@ -193,9 +211,11 @@ animation-duration: 5s;
   /* Hack to improve aliasing on mobile/tablet devices */
 }
 .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active {
-  background: none;
-  
-}
+  background: none;}
+
+
+
+/* Home Heading */
 
 
 div p {
@@ -203,28 +223,142 @@ font-family: "cinzel";
 color: black;
 font-size: 24px;
 text-align: center;
-margin-top: 20px;
+margin-top: 20px;}
+
+
+
+
+
+
+
+/*Home page Gallery Navigation */
+
+
+
+.container-fluid{
+width: 100%;
+
 }
 
-.col-md-2 {
+.col-lg-1 {
 font-family: "cinzel";
 color: black;
 font-size: 24px;
 text-align: center;
 text-decoration: none;
-padding: }
+padding: 20%;
+padding-top: 10%;
+padding-bottom: 10%;
+}
 
 
-
-.col-md-1 {
+.col-lg-3 {
 font-family: "cinzel";
 color: black;
 font-size: 24px;
 text-align: center;
 text-decoration: none;
-float: center;}
+padding: 20%;
+padding-top: 10%;
+padding-bottom: 10%;
+}
 
 
+.container-fluid2 {
+width: 100%;
+
+}
+
+.col-lg-2 {
+font-family: "cinzel";
+color: black;
+font-size: 24px;
+text-align: center;
+text-decoration: none;
+padding-top: 0%;
+padding-right: 0%;
+padding-bottom: 50%;
+padding-left: 40%;
+}
+
+
+
+h4 {font-family: "cinzel decorative";
+color: black;
+text-align: center;
+animation-name: fadeInUp;
+animation-delay: 1s;
+animation-duration: 5s;
+transition-timing-function: ease-in;
+animation-fill-mode: both;
+} 
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+
+
+/* animation for photos on home page*/
+
+
+
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1.5px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 3s;
+  transition-duration: 3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 15px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 3s;
+  transition-duration: 3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(15px);
+  transform: translateY(15px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+
+
+
+
+/* Old layout for home galleries 
 
 #galleries {
 height: 800px;
@@ -248,9 +382,10 @@ float: right;
 padding-top: 5px;
 width: 33%;
 margin-left: 37%;
-
+margin-top: 10%;
+line-height: 20px;
 }
-
+*/
 
 
 /*
