@@ -388,27 +388,58 @@ line-height: 20px;
 */
 
 
-/*
 
-#times {
-        background-image: url("");
+
+#footer {
+        background-image: url("https://fccb84f3-1fb6-4f6b-b309-3a87a143e20c.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_8890.JPG");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         width: 100%;
         overflow: hidden;}
 
-#times div {
+
+
+.col-sm {
+font-family: cinzel;
+font-size: 20px;
+padding-top: 0.5%;
+padding-left: 10%;
+}
+
+.col-sm i{
+    font-size: 90%;
+    margin: 2.5%;
+}
+
+
+.container-footer-text {
         color: #fafafa;
         background-color: rgba(0,0,0, .6);
         width: 100%;
-        height: 300px;
-        text-align: center;
-        margin: 2px;}
+        height: 400px;
+        margin: 0px;
+        padding-top: 3%;
+        }
 
-*/
 
-footer {height: 100px;}
+
+.list-group-flush{
+font-family: "nanum myeong";
+background-color: transparent;
+}
+
+
+.list-group-item {
+font-family: "nanum myeong";
+font-size: 16px;
+padding-top: 0.5%;
+padding-left: 10%;
+}
+
+
+
+
 
 .social-networks {
         text-align: center;}
@@ -417,7 +448,7 @@ footer {height: 100px;}
         display: inline;}
 
 .social-networks i {
-        font-size: 160%;
+        font-size: 120%;
         margin: 1%;
         padding: 3%;
         color: #777777;}
