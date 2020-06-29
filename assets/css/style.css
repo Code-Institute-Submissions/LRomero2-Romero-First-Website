@@ -12,7 +12,6 @@ header {
 .parallax {
            height: 600px;
            width:100%;
-<<<<<<< HEAD
            background: url("https://fe68b55d-242b-4e44-9de8-9cf894a6f32d.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG") no-repeat center;
            background-size: cover;   
      background-attachment: fixed;
@@ -24,10 +23,6 @@ header {
      */     
           
           /*
-=======
-           background: url("https://b333a5b6-24b5-4f84-aee6-1417fef8af1a.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG") no-repeat center;
-           background-size: cover;
->>>>>>> 60590d55a84c0425c750c3782a4d4bb7ae42b5df
            animation-name: fade;
            animation-duration: 7s;
            animation-timing-function: fade-out; 
@@ -45,33 +40,20 @@ header {
 
 .parallax {
   /* The image used */
-<<<<<<< HEAD
   background-image: url("https://fe68b55d-242b-4e44-9de8-9cf894a6f32d.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG");
-=======
-  background-image: url("https://b333a5b6-24b5-4f84-aee6-1417fef8af1a.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG");
->>>>>>> 60590d55a84c0425c750c3782a4d4bb7ae42b5df
 
   /* Set a specific height */
   height: 800px;
   width:  100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-<<<<<<< HEAD
-
-}
-
-/*
- /*#main-outer 
-=======
   background-size: cover;
 }
 /*
 
  
->>>>>>> 60590d55a84c0425c750c3782a4d4bb7ae42b5df
  .parallax {
      padding: 0;
            height: 80%;
@@ -101,13 +83,27 @@ header {
 }
 
 
+head1 {font-family: "cinzel decorative";
+color: black;
+margin-left: 3%;
+animation-name: fadeInUp;
+animation-delay: 1s;
+animation-duration: 5s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+} 
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
 
-
-
-
-*/
-
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 
 
 
@@ -173,7 +169,7 @@ animation-duration: 5s;
 
 
 
-
+}
 
 h2 {font-family: "cinzel decorative";
 color: black;
@@ -218,7 +214,7 @@ animation-duration: 5s;
     transform: none;
   }
 }
-}
+
 
 /* Navbar */
 
@@ -238,21 +234,13 @@ background-color: white;
 
 .nav-link {
 font-family: 'Nanum Myeongjo', serif;
+font-weight: 800;
 text-decoration: none;
 float: right;
 font-size: 15px;
 letter-spacing: 3px;
 }
 
-
-.flex-column-reverse {
-    font-family: 'Nanum Myeongjo', serif;
-text-decoration: none;
-    font-size: 15px;
-letter-spacing: 3px;
-}
-
-}
 
 
 
@@ -264,7 +252,6 @@ div h4{
 }
 
 div p {
-<<<<<<< HEAD
 font-family: 'Nanum Myeongjo', serif;
 color: black;
 font-size: 18px;
@@ -273,23 +260,23 @@ width: 100%;
 float: center;
 padding-top: 10px;
 }
-=======
+
+/*
 font-family:  'Nanum Myeongjo', serif;
 color: black;
 font-size: 18px;
 text-align: center;
 margin-top: 20px;
 }
+*/
 
-
->>>>>>> 60590d55a84c0425c750c3782a4d4bb7ae42b5df
 
 
 
 /*Home page Gallery Navigation */
 
 .container-fluid {
-    max-width: 100%;
+   width: 100%;
 }
 
 .container-fluid p {
@@ -305,7 +292,7 @@ text-align: center;}
     float: right 30%;}
     
 
-.col-sm {
+.col-sm{
     width: 100%;
     padding: 5%;
     margin: 0;
