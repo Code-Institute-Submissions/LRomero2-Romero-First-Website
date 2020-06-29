@@ -12,7 +12,7 @@ header {
 
            height: 500px;
            width:100%;
-           background: url("https://fd18bb27-677c-4bfd-be48-b85ea951dd59.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/Owl%20Orange%20Eyes.jpg") no-repeat center;
+           background: url("https://b333a5b6-24b5-4f84-aee6-1417fef8af1a.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG") no-repeat center;
            background-size: cover;
            animation-name: fade;
            animation-duration: 6s;
@@ -28,16 +28,10 @@ header {
            }
 
 
-/*
- background: url("../imgs/IMG_1297.JPG");
-             background: url("../imgs/IMG_3116.JPG");
-            background: url("../imgs/IMG_3658.JPG");
-*/
-
 
 .parallax {
   /* The image used */
-  background-image: url("https://d907e707-6734-48b3-bd0a-58506784df2c.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/Owl%20Orange%20Eyes.jpg");
+  background-image: url("https://b333a5b6-24b5-4f84-aee6-1417fef8af1a.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG");
 
   /* Set a specific height */
   height: 800px;
@@ -48,9 +42,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/*
 
-
- /*#main-outer */
+ 
  .parallax {
      padding: 0;
            height: 800px;
@@ -67,6 +61,11 @@ header {
     opacity: 1;
   }
           }
+
+*/
+
+
+
 
 
 
@@ -101,7 +100,7 @@ animation-fill-mode: both;
   font-size: 46px;
   padding: 20px;
   float: left;
-  height: 610px;
+  height: 500px;
 }
 
 
@@ -207,11 +206,12 @@ letter-spacing: 3px;
 
 
 div p {
-font-family: "cinzel";
+font-family:  'Nanum Myeongjo', serif;
 color: black;
-font-size: 24px;
+font-size: 18px;
 text-align: center;
-margin-top: 20px;}
+margin-top: 20px;
+}
 
 
 
