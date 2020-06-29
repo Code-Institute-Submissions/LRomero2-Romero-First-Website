@@ -83,9 +83,34 @@ header {
 }
 
 
+#animalsheader {
+    background-image: url("https://fe68b55d-242b-4e44-9de8-9cf894a6f32d.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG");
+  max-width: 100%;
+    height: 420px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+/*padding-bottom: 15%;*/
+
+}
+
+.headsdiv{
+   float: center;
+  max-width: 100%;
+  height: 420px;
+        background-color: rgba(0, 0, 0, 0.4);
+        text-align: left;
+        display: cover;
+       /* padding-bottom: 15%;*/
+}
+
+
+
+
+
 head1 {font-family: "cinzel decorative";
 color: black;
-margin-left: 3%;
+/*margin-left: 3%;*/
 animation-name: fadeInUp;
 animation-delay: 1s;
 animation-duration: 5s;
@@ -143,6 +168,19 @@ animation-fill-mode: both;
   height: 500px;
 }
 
+#overlay2 {
+  position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  transition: .8s ease-in;
+  opacity:1;
+  color: white;
+  font-size: 46px;
+  padding: 20px;
+  float: left;
+  height: 400px;
+}
+
 
 
 h {font-family: "cinzel decorative";
@@ -169,7 +207,7 @@ animation-duration: 5s;
 
 
 
-}
+
 
 h2 {font-family: "cinzel decorative";
 color: black;
@@ -195,7 +233,7 @@ animation-duration: 5s;
 
 h3 {font-family: "cinzel decorative";
 color: black;
-margin-left: 3%;
+margin-left: 8%;
 animation-name: fadeInUp;
 animation-delay: 1s;
 animation-duration: 5s;
@@ -241,9 +279,51 @@ font-size: 15px;
 letter-spacing: 3px;
 }
 
+/*
 
 
 
+
+
+.dropdown-menu a{
+ color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-toggle:hover  .dropdown-menu{
+    display: block;
+}
+
+*/
+
+/*
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-item a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-item a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+*/
 /* Home Heading */
 
 
