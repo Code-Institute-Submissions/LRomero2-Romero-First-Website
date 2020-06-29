@@ -12,6 +12,7 @@ header {
 .parallax {
            height: 600px;
            width:100%;
+<<<<<<< HEAD
            background: url("https://fe68b55d-242b-4e44-9de8-9cf894a6f32d.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG") no-repeat center;
            background-size: cover;   
      background-attachment: fixed;
@@ -23,6 +24,10 @@ header {
      */     
           
           /*
+=======
+           background: url("https://b333a5b6-24b5-4f84-aee6-1417fef8af1a.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG") no-repeat center;
+           background-size: cover;
+>>>>>>> 60590d55a84c0425c750c3782a4d4bb7ae42b5df
            animation-name: fade;
            animation-duration: 7s;
            animation-timing-function: fade-out; 
@@ -37,16 +42,14 @@ header {
            }
 */
 
-/*
- background: url("../imgs/IMG_1297.JPG");
-             background: url("../imgs/IMG_3116.JPG");
-            background: url("../imgs/IMG_3658.JPG");
-*/
-
 
 .parallax {
   /* The image used */
+<<<<<<< HEAD
   background-image: url("https://fe68b55d-242b-4e44-9de8-9cf894a6f32d.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG");
+=======
+  background-image: url("https://b333a5b6-24b5-4f84-aee6-1417fef8af1a.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG");
+>>>>>>> 60590d55a84c0425c750c3782a4d4bb7ae42b5df
 
   /* Set a specific height */
   height: 800px;
@@ -56,11 +59,19 @@ header {
    background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
 
 }
 
 /*
  /*#main-outer 
+=======
+  background-size: cover;
+}
+/*
+
+ 
+>>>>>>> 60590d55a84c0425c750c3782a4d4bb7ae42b5df
  .parallax {
      padding: 0;
            height: 80%;
@@ -91,6 +102,11 @@ header {
 
 
 
+
+
+
+
+*/
 
 
 
@@ -248,6 +264,7 @@ div h4{
 }
 
 div p {
+<<<<<<< HEAD
 font-family: 'Nanum Myeongjo', serif;
 color: black;
 font-size: 18px;
@@ -256,6 +273,16 @@ width: 100%;
 float: center;
 padding-top: 10px;
 }
+=======
+font-family:  'Nanum Myeongjo', serif;
+color: black;
+font-size: 18px;
+text-align: center;
+margin-top: 20px;
+}
+
+
+>>>>>>> 60590d55a84c0425c750c3782a4d4bb7ae42b5df
 
 
 
