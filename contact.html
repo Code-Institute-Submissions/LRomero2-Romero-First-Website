@@ -14,30 +14,35 @@
 </head>
 <body>
 
-   
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <ul class="navbar-nav mr-auto">
-      <li id="active" class="hvr-float-shadow">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="hvr-float-shadow">
-        <a  class="nav-link" href="gallery.html">Gallery</a>
-      </li>
-      <li class="hvr-float-shadow">
-        <a  class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-      </li>
-       <li class="hvr-float-shadow">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Services
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="PrintsandCanvasses.html">Prints & Canvasses</a>
-          <a class="dropdown-item" href="Personalphotography.html">Personal Photography</a>
-          <a class="dropdown-item" href="Commercialphotography.html">Commercial Photography</a>
-        </div>
-     </li>
-    </ul>
-</nav>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                      <li id="nav-item active" class="hvr-float-shadow">
+                          <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="hvr-float-shadow">
+                          <a class="nav-link"  href="gallery.html">Gallery</a>
+                      </li>
+                      <li class="hvr-float-shadow">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li class="hvr-float-shadow">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Services</a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="PrintsandCanvasses.html">Prints & Canvasses</a>
+                          <a class="dropdown-item" href="Personalphotography.html">Personal Photography</a>
+                 <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="Commercialphotography.html">Commercial Photography</a>
+                 </div>
+                     </li>
+                </ul>
+                </div>
+         </nav>
 
 
 
@@ -50,9 +55,56 @@
 </section>
 </header>
 
+
+
+
+<form>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault01">First name</label>
+      <input type="text" class="form-control" id="validationDefault01" required>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">Last name</label>
+      <input type="text" class="form-control" id="validationDefault02" required>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault03">Email</label>
+      <input type="text" class="form-control" id="validationDefault03" required>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+    <label for="exampleFormControlTextarea1">Please Type Your Message Here</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+  </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section> 
-
-
 <div  id="footer">
   <div id="footer-1" class="row no-gutters">
     <div class="col-sm">
@@ -72,8 +124,6 @@
     </div>
   </div>
 </div>
-
-
 </section>
 
 

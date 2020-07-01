@@ -483,8 +483,24 @@ animation-fill-mode: both;
 
 
 
+form  {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    padding-top: 20%;
+padding-bottom: 20%;
+padding-left: 10%;
+padding-right: 10%;
+color: #777777;
+}
 
 
+
+btn-primary {
+ font-family: 'Nanum Myeongjo', serif;
+ font-weight: 600;
+padding: 2%;
+color: #777777;
+}
 
 #footer {
         background-image: url("https://fe68b55d-242b-4e44-9de8-9cf894a6f32d.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_8890.JPG");
