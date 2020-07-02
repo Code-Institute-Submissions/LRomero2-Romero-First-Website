@@ -574,7 +574,7 @@ body {
 
 
 #footer {
-        background-image: url("https://fe68b55d-242b-4e44-9de8-9cf894a6f32d.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_8890.JPG");
+        background-image: url("https://f6b3a451-dbf4-4b5b-a9f5-89edecd71683.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_8890.JPG");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -588,7 +588,7 @@ body {
    float: center;
   max-width: 100%;
   height: auto;
-   color: #fafafa;
+ color: #fafafa;
         margin: 2px;
         text-align: center;
         display: cover;
@@ -623,12 +623,18 @@ font-family: 'Nanum Myeongjo', serif;
 font-size: 18px;
 color: white;
 text-align: center;
+text-decoration: none;
+}
+
+#footer a{
+    text-decoration: none;
 }
 
 
 #footer div {
         color: #fafafa;
         background-color: rgba(0,0,0, .4);
+        text-decoration: none;
       /*  width: 33%;*/
        /* height: 400px;*/
        /* display: cover;
