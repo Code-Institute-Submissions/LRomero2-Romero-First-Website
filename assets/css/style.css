@@ -219,43 +219,53 @@ animation-duration: 5s;
   background-image: url("https://f6b3a451-dbf4-4b5b-a9f5-89edecd71683.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/bamboo.jpg");
 
   /* Full height */
-  height: 100%; 
+  height: 1000px;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-*/
+
+.ouraimbg {
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.row justify-content-center {
+    padding-bottom: 40%;
+}
 
 .text-block {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 600;
     color: black;
-    background-color: rgba(177, 247, 190, 0.932);
     padding: 4%;
+    text-align: center;
 }
 
-/*
-#ouraimp {
-  position: relative;
-  font-family: 'Nanum Myeongjo', serif;
- font-weight: 600;
-  background-repeat: no-repeat;
+.col-6-text-box {
+   background-color: rgba(177, 247, 190, 0.932); 
+   max-width: 50%;
+   max-height: 80%;
+   animation-name: fadeInUp;
+ animation-delay: 1s;
+ animation-duration: 5s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-.text-block {
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  left: 420px;
-  top: 300px;
-  background-color: rgba(177, 247, 190, 0.932);
- /* padding: 24%;
-  text-align: center;
-  padding: 4%;
-}
-*/
 
 
 
@@ -426,34 +436,6 @@ text-align: center;}
 }
 
 
-/*
-
-#p1 {
-    padding-top: 25%;
-    float: left 25%;
-    height: 40px;
-    width: 32px;
-   
-}
-
-#p2 {
-    
- float: right 25%;
-    height: 40px;
-    width: 32px;
-    
-}
-
-#p3 {
-    
- float: left 25%;
-    height: 40px;
-    width: 32px;
- 
-}
-
-*/
- 
 
 
 
@@ -616,14 +598,42 @@ body {
 
 
 
+#p-1 {
+font-family: 'Nanum Myeongjo', serif;
+font-size: 18px;
+color: #777777;
+
+}
 
 
+#p-2 {
+font-family: 'Nanum Myeongjo', serif;
+font-size: 18px;
+color: #777777;
 
+}
 
+#p-3 {
+font-family: 'Nanum Myeongjo', serif;
+font-size: 18px;
+color: #777777;
 
+}
 
+#p-4 {
+font-family: 'Nanum Myeongjo', serif;
+font-size: 18px;
+color: #777777;
 
+}
 
+.printsp {
+font-family: 'Nanum Myeongjo', serif;
+font-size: 20px;
+color: black;
+text-align: center;
+float: center;
+}
 
 #footer {
         background-image: url("https://f6b3a451-dbf4-4b5b-a9f5-89edecd71683.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_8890.JPG");
@@ -685,7 +695,7 @@ text-decoration: none;
 
 #footer div {
         color: #fafafa;
-        background-color: rgba(0,0,0, .4);
+        background-color: rgba(0, 0, 0, 0.274);
         text-decoration: none;
       /*  width: 33%;*/
        /* height: 400px;*/
