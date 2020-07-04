@@ -94,6 +94,15 @@ header {
 
 }
 
+
+#personalheader {
+   background-image: url("https://f6b3a451-dbf4-4b5b-a9f5-89edecd71683.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/babyseyes.jpg");
+  max-width: 100%;
+    height: 420px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;}
+
 .headsdiv{
    float: center;
   max-width: 100%;
