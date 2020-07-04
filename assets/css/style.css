@@ -40,7 +40,7 @@ header {
 
 .parallax {
   /* The image used */
-  background-image: url("https://f6b3a451-dbf4-4b5b-a9f5-89edecd71683.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG");
+  background-image: url("https://b6df25af-8efb-49f5-b898-7ab67fa8a152.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_0890.JPG");
 
   /* Set a specific height */
   height: 800px;
@@ -51,6 +51,24 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.parallax1 {
+  /* The image used */
+  background-image: url("https://b6df25af-8efb-49f5-b898-7ab67fa8a152.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/friends.jpg");
+
+  /* Set a specific height */
+  height: 600px;
+  width:  100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+ background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+
 /*
 
  
@@ -96,7 +114,7 @@ header {
 
 
 #personalheader {
-   background-image: url("https://f6b3a451-dbf4-4b5b-a9f5-89edecd71683.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/babyseyes.jpg");
+   background-image: url("https://b6df25af-8efb-49f5-b898-7ab67fa8a152.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/babyseyes.jpg");
   max-width: 100%;
     height: 420px;
   background-size: cover;
@@ -113,6 +131,21 @@ header {
        /* padding-bottom: 15%;*/
 }
 
+
+#headingpersonal {
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 400;;
+font-size: 20px;
+color: #777777;
+padding: 5%;
+}
+
+
+.containerpersonal {
+width: 100%;
+padding: 4%;
+padding-bottom: 20%;
+}
 
 
 
@@ -189,6 +222,69 @@ animation-fill-mode: both;
   float: left;
   height: 400px;
 }
+
+#overlay3 {
+  position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  transition: .8s ease-in;
+  opacity:1;
+  color: white;
+  font-size: 42px;
+  float: left;
+  height: 550px;
+  margin-left: 1%;
+}
+
+#overlay4 {
+  position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  transition: .8s ease-in;
+  opacity:1;
+  color: white;
+  font-size: 46px;
+  padding: 20px;
+  float: left;
+  height: 658px;
+}
+
+head2 {font-family: "cinzel decorative";
+color: white;
+/*margin-left: 3%;*/
+animation-name: fadeInUp;
+animation-delay: 1s;
+animation-duration: 5s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+} 
+
+
+.headsdiv1{
+   float: center;
+  max-width: 100%;
+  height: 420px;
+        background-color: rgba(0, 0, 0, 0.4);
+        text-align: left;
+        display: cover;
+       /* padding-bottom: 15%;*/
+}
+
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
 
 
 
@@ -645,7 +741,7 @@ float: center;
 }
 
 #footer {
-        background-image: url("https://f6b3a451-dbf4-4b5b-a9f5-89edecd71683.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_8890.JPG");
+        background-image: url("https://b6df25af-8efb-49f5-b898-7ab67fa8a152.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_8890.JPG");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
