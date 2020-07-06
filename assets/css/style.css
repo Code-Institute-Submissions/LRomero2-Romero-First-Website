@@ -374,6 +374,13 @@ animation-duration: 5s;
 
 
 
+.personalpara {
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 400;
+color: #777777;
+text-align: center;
+}
+
 
 h2 {font-family: "cinzel decorative";
 color: black;
@@ -565,6 +572,44 @@ text-decoration: none;
     opacity: 1;
     transform: none;
   }
+}
+
+
+h42 {
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 600;
+font-style: italic;
+font-size: 30px;
+padding: 4%;
+color: #777777;
+text-align: center;
+animation-name: fadeInUp;
+animation-delay: 1s;
+animation-duration: 5s;
+transition-timing-function: ease-in;
+animation-fill-mode: both;
+text-decoration: none;
+} 
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+
+.text-block42{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
