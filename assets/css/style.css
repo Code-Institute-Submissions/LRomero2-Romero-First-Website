@@ -115,6 +115,23 @@ header {
   background-repeat: no-repeat;
 }
 
+#aboutusheader {
+ background-image: url("https://d773eae8-4504-48b9-89f1-6030b92795f1.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/rayban.jpg");
+  max-width: 100%;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headsdivaboutus {
+   float: center;
+  max-width: 100%;
+  height: 480px;
+    background-color: rgba(255, 145, 2, 0.315);
+        text-align: left;
+        display: contain;  
+}
 
 .headsdiv{
    float: center;
@@ -262,7 +279,6 @@ animation-fill-mode: both;
 
 
 
-
 #overlay3 {
   position: absolute; 
   bottom: 0; 
@@ -288,6 +304,10 @@ animation-fill-mode: both;
   float: left;
   height: 658px;
 }
+
+
+
+
 
 head2 {font-family: "cinzel decorative";
 color: white;
@@ -411,6 +431,62 @@ animation-duration: 5s;
   }
 }
 
+
+#overlayaboutusp {
+ position: absolute; 
+  width: 100%;
+  font-family: 'Nanum Myeongjo', serif;
+font-weight: 400;
+font-size: 16px;
+color: white; 
+text-align: center;
+  opacity:1;
+  padding-top: 10%;
+  padding-right: 50%;
+  padding-left:5%;
+  margin-bottom: 0;
+  float: left;
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.aboutusp{
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 200;
+font-size: 18px;
+color: #777777;
+text-align: center;
+padding-left: 15%;
+padding-right:15%;
+padding-top:10%;
+padding-bottom: 4%;
+
+}
+
+
+
+#aboutsusbottomdiv {
+ background-image: url("https://d773eae8-4504-48b9-89f1-6030b92795f1.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/rainforestandme.jpg");
+  max-width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.container-aboutus {
+width: 60%;
+padding: 2%;
+}
+
+.col-sm-aboutus{
+width: 65%;
+padding: 2%;
+}
 
 .commpara {
 font-family: 'Nanum Myeongjo', serif;
@@ -828,7 +904,7 @@ float: center;
 }
 
 #footer {
-        background-image: url("https://b6df25af-8efb-49f5-b898-7ab67fa8a152.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/IMG_7035.JPG");
+        background-image: url("https://d773eae8-4504-48b9-89f1-6030b92795f1.ws-eu01.gitpod.io/mini-browser/workspace/Romero-First-Website/assets/imgs/cornwall.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
