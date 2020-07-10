@@ -7,51 +7,38 @@
 header {
     margin: 0;}
 
-
+/* -------------------------------------HEADERS----------------------------------------*/
 
 .parallax {
-  /* The image used */
   background-image: url("../imgs/IMG_0890.JPG");
-
-  /* Set a specific height */
   height: 800px;
   width:  100%;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover;}
 
 
 .parallax1 {
-  /* The image used */
   background-image: url("../imgs/friends.jpg");
-
-  /* Set a specific height */
   height: 600px;
   width:  100%;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
- background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
- background-size: cover;
-}
+  background-size: cover;}
 
 
 .parallax2 {
-  /* The image used */
   background-image: url("../imgs/henry.jpg");
-
-  /* Set a specific height */
   height: 620px;
   width:  100%;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
- background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
- background-size: contain;
-}
+  background-size: contain;}
+
+
 
 
 .img-fluid {
@@ -59,36 +46,34 @@ header {
     height: 800px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat;}
+
+
 
 
 #animalsheader {
-    background-image: url("../imgs/jag..jpg");
+  background-image: url("../imgs/jag..jpg");
   max-width: 100%;
-    height: 480px;
+  height: 480px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
-}
+  background-repeat: no-repeat;}
 
 
 #contactheader {
-     background-image: url("../imgs/camera.jpg");
+  background-image: url("../imgs/camera.jpg");
   max-width: 100%;
-    height: 480px;
+  height: 480px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
-}
+  background-repeat: no-repeat;}
 
 
 
 #personalheader {
-   background-image: url("../imgs/babyseyes.jpg");
+  background-image: url("../imgs/babyseyes.jpg");
   max-width: 100%;
-    height: 480px;
+  height: 480px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;}
@@ -96,14 +81,13 @@ header {
 
 
 #commheader {
-    background-image: url("../imgs/converse%20%282%29.jpg");
+  background-image: url("../imgs/electric%20guitar%20and%20plant.jpg");
   max-width: 100%;
   height: 480px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: cover;
-}
+  display: cover;}
 
 
 #printsheader {
@@ -112,18 +96,16 @@ header {
   height: 480px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat;}
 
 
 #peopleheader{
-    background-image: url("../imgs/Amazonian%20Woman.jpg");
+  background-image: url("../imgs/Amazonian%20Woman.jpg");
   max-width: 100%;
   height: 480px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat;}
 
 
 #plantsheader {
@@ -132,91 +114,56 @@ header {
   height: 480px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
-}
+  background-repeat: no-repeat;}
 
 
 #galleryheader {
- background-image: url("../imgs/IMG_2389.JPG");
+  background-image: url("../imgs/IMG_2389.JPG");
   max-width: 100%;
   height: 480px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat;}
+
 
 #aboutusheader {
- background-image: url("../imgs/rayban.jpg");
+  background-image: url("../imgs/rayban.jpg");
   max-width: 100%;
   height: 480px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat;}
+
 
 .headsdivaboutus {
-   float: center;
+  float: center;
   max-width: 100%;
   height: 480px;
-    background-color: rgba(255, 145, 2, 0.315);
-        text-align: left;
-        display: contain;  
-}
+  background-color: rgba(255, 145, 2, 0.315);
+  text-align: left;
+  display: contain;}
+
 
 .headsdiv{
-   float: center;
+  float: center;
   max-width: 100%;
   height: 480px;
-        background-color: rgba(0, 0, 0, 0.2);
-        text-align: left;
-        display: contain;
-       /* padding-bottom: 15%;*/
-}
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: left;
+  display: contain;}
 
+/* -------------------------------------HEADINGS----------------------------------------*/
 
 #headingpersonal {
 font-family: 'Nanum Myeongjo', serif;
 font-weight: 400;
 font-size: 20px;
 color: #777777;
-padding: 5%;
-}
-
-
-.containerpersonal {
-width: 100%;
-padding: 4%;
-padding-bottom: 20%;
-}
-
-
-
-.carousel-caption {
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 800;
-    color: white;
-    font-size: 28px;
-    text-align: center;
-}
-
-
-
-
-.compara {
- font-family: 'Nanum Myeongjo', serif;
-    font-weight: 400;
-    color: #777777;
-    font-size: 20px;
-    text-align: center;
-    padding: 10%;
-
-}
+padding: 5%;}
 
 
 head1 {font-family: "cinzel decorative";
 color: black;
-/*margin-left: 3%;*/
 animation-name: fadeInUp;
 animation-delay: 1s;
 animation-duration: 5s;
@@ -271,8 +218,9 @@ animation-fill-mode: both;
   font-size: 46px;
   padding: 20px;
   float: left;
-  height: 500px;
-}
+  height: 500px;}
+
+
 
 #overlay2 {
   position: absolute; 
@@ -284,8 +232,9 @@ animation-fill-mode: both;
   font-size: 46px;
   padding: 20px;
   float: left;
-  height: 400px;
-}
+  height: 400px;}
+
+
 
 #overlayplants{
   position: absolute; 
@@ -298,10 +247,36 @@ animation-fill-mode: both;
   padding: 20px;
   float: left;
   height: 400px;
-  margin-left: 4px;
-    
-}
+  margin-left: 4px;}
 
+
+
+#overlaycontactus{
+  position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  transition: .8s ease-in;
+  opacity:1;
+  color: white;
+  font-size: 46px;
+  padding: 20px;
+  float: left;
+  height: 400px;
+  margin-left: 6px;}
+
+
+#overlaycommercial{
+ position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  transition: .8s ease-in;
+  opacity:1;
+  color: white;
+  font-size: 44px;
+  padding: 20px;
+  margin-left: 4px;
+  float: left;
+  height: 400px;}
 
 
 #overlayprints {
@@ -315,8 +290,7 @@ animation-fill-mode: both;
   padding: 20px;
   margin-left: 4px;
   float: left;
-  height: 400px;
-}
+  height: 400px;}
 
 
 
@@ -330,8 +304,8 @@ animation-fill-mode: both;
   font-size: 42px;
   float: left;
   height: 550px;
-  margin-left: 1%;
-}
+  margin-left: 1%;}
+
 
 #overlay4 {
   position: absolute; 
@@ -343,27 +317,17 @@ animation-fill-mode: both;
   font-size: 46px;
   padding: 20px;
   float: left;
-  height: 658px;
-}
-
-
-.container-animals{
-padding-top: 1%;
-padding-bottom:1%;
-}
-
+  height: 658px;}
 
 
 
 head2 {font-family: "cinzel decorative";
-color: white;
-/*margin-left: 3%;*/
-animation-name: fadeInUp;
-animation-delay: 1s;
-animation-duration: 5s;
+    color: white;
+    animation-name: fadeInUp;
+    animation-delay: 1s;
+    animation-duration: 5s;
     transition-timing-function: ease-in;
-    animation-fill-mode: both;
-} 
+    animation-fill-mode: both;} 
 
 
 .headsdiv1{
@@ -372,9 +336,7 @@ animation-duration: 5s;
   height: 480px;
         background-color: rgba(0, 0, 0, 0.3);
         text-align: left;
-        display: cover;
-       /* padding-bottom: 15%;*/
-}
+        display: cover;}
 
 
 
@@ -389,8 +351,6 @@ animation-duration: 5s;
     transform: none;
   }
 }
-
-
 
 
 
@@ -417,147 +377,6 @@ animation-duration: 5s;
 }
 
 
-/*
-.ouraimp {
-    font-family: 'Nanum Myeongjo', serif;
-    color: black;
-    padding: 8%;
-}
-*/
-/*
-.ouraimp {
-  /* The image used */
-  background-image: url("../imgs/bamboo.jpg");
-
-  /* Full height */
-  height: 1000px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.ouraimbg {
-  background-repeat: repeat-y;
-  background-size: cover;
-}
-
-.row justify-content-center {
-    padding-bottom: 40%;
-}
-
-.text-block {
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 600;
-    color: black;
-    padding: 4%;
-    text-align: center;
-}
-
-.col-6-text-box {
-   background-color: rgba(177, 247, 190, 0.932); 
-   max-width: 50%;
-   max-height: 80%;
-   animation-name: fadeInUp;
- animation-delay: 1s;
- animation-duration: 5s;
-    transition-timing-function: ease-in;
-    animation-fill-mode: both;
-}
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.containerparaaboutus {
-  position: relative;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 200;
-  font-size: 26px;
-  text-align: center;
-  padding: 4%;
-}
-
-#overlayaboutusp {
-  position: absolute;
-  bottom: 40%;
-  right: 50%;
-  left: 7%;
-  top: 8%;
-  height: 320px;
-  width: 480px;
-  padding: 4%;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-}
-
-
-
-.aboutusp{
-font-family: 'Nanum Myeongjo', serif;
-font-weight: 200;
-font-size: 18px;
-color: #777777;
-text-align: center;
-padding-left: 15%;
-padding-right:15%;
-padding-top:10%;
-padding-bottom: 4%;
-
-}
-
-
-
-#aboutsusbottomdiv {
- background-image: url("../imgs/rainforestandme.jpg");
-  max-width: 100%;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-
-
-
-.container-aboutus {
-width: 55%;
-padding: 2%;
-}
-
-.col-sm-aboutus{
-width: 65%;
-padding: 2%;
-}
-
-.commpara {
-font-family: 'Nanum Myeongjo', serif;
-font-weight:200;
-font-size: 30px;
-color: white;
-text-align: center;
-padding: 30%;
-padding-top: 10%;
-}
-
-
-.personalpara {
-font-family: 'Nanum Myeongjo', serif;
-font-weight: 400;
-color: #777777;
-text-align: center;
-}
-
-
 h2 {font-family: "cinzel decorative";
 color: black;
 margin-left: 9%;
@@ -579,6 +398,8 @@ animation-duration: 5s;
     transform: none;
   }
 }
+
+
 
 h3 {font-family: "cinzel decorative";
 color: black;
@@ -602,89 +423,6 @@ animation-duration: 5s;
   }
 }
 
-
-/* Navbar */
-
-.navbar {
-position: fixed;
-}
-
-.navbar-expand-lg {
-/*padding-right: 10%;*/
-width: 100%;
-position: fixed;
-/*overflow: hidden;*/
-background-color: rgba white;
-}
-
-
-
-.nav-link {
-font-family: 'Nanum Myeongjo', serif;
-font-weight: 800;
-text-decoration: none;
-font-size: 15px;
-letter-spacing: 3px;
-}
-
-
-/* Home Heading */
-
-
-div h4{
-    padding-top: 5%;
-}
-
-div p {
-font-family: 'Nanum Myeongjo', serif;
-color: black;
-font-size: 18px;
-text-align: center;
-width: 100%;
-float: center;
-padding-top: 10px;
-}
-
-
-
-
-/*Home page Gallery Navigation */
-
-.container-fluid {
-   width: 100%;
-}
-
-.container-fluid p {
-font-family: 'Nanum Myeongjo', serif;
-font-size: 16px;
-padding: 4%;
-float: left 25%;
-text-align: center;}
-
-
-.container-fluid h4 {
-    padding-top: 10%;
-    float: right 30%;}
-    
-
-.col-sm{
-    width: 100%;
-    padding: 5%;
-    margin: 0;
-}
-
-.carousel-item active{
-   height: 700px; 
-}
-
-.carousel-item {
-height: 700px;
-
-}
-
-.container-fluid-commercial {
-    padding: 10%;
-}
 
 
 h4 {font-family: "cinzel decorative";
@@ -710,6 +448,8 @@ text-decoration: none;
   }
 }
 
+
+
 .printsheading {
 font-family: "cinzel decorative";
 color: black;
@@ -734,9 +474,6 @@ text-decoration: none;
     transform: none;
   }
 }
-
-
-
 
 
 
@@ -768,14 +505,253 @@ text-decoration: none;
   }
 }
 
+/* -------------------------------------NAVBAR----------------------------------------*/
+
+
+.navbar {
+position: fixed;}
+
+
+.navbar-expand-lg {
+width: 100%;
+position: fixed;
+background-color: rgba white;}
+
+
+.nav-link {
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 800;
+text-decoration: none;
+font-size: 15px;
+letter-spacing: 3px;}
+
+
+
+/* -------------------------------------PARAGRAPHS & CONTENT----------------------------------------*/
+
+
+.containerpersonal {
+    width: 100%;
+    padding: 4%;
+    padding-bottom: 20%;}
+
+
+
+.carousel-caption {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+    color: white;
+    font-size: 28px;
+    text-align: center;}
+
+
+
+.compara {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    color: #777777;
+    font-size: 20px;
+    text-align: center;
+    padding: 10%;}
+
+
+
+.container-animals{
+    padding-top: 1%;
+    padding-bottom:1%;}
+
+
+
+
+/*
+.ouraimp {
+  /* The image used */
+  background-image: url("../imgs/bamboo.jpg");
+
+  /* Full height */
+  height: 1000px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ouraimbg {
+   background-repeat: repeat-y;
+    background-size: cover;}
+
+
+.row justify-content-center {
+    padding-bottom: 40%;}
+
+
+.text-block {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    color: black;
+    padding: 4%;
+    text-align: center;}
+
+
+.col-6-text-box {
+   background-color: rgba(177, 247, 190, 0.932); 
+   max-width: 50%;
+   max-height: 80%;
+   animation-name: fadeInUp;
+   animation-delay: 1s;
+   animation-duration: 5s;
+   transition-timing-function: ease-in;
+   animation-fill-mode: both;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+.containerparaaboutus {
+  position: relative;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 200;
+  font-size: 26px;
+  text-align: center;
+  padding: 4%;}
+
+
+
+#overlayaboutusp {
+  position: absolute;
+  bottom: 40%;
+  right: 50%;
+  left: 7%;
+  top: 8%;
+  height: 320px;
+  width: 480px;
+  padding: 4%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;}
+
+
+
+.aboutusp{
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 200;
+font-size: 18px;
+color: #777777;
+text-align: center;
+padding-left: 15%;
+padding-right:15%;
+padding-top:10%;
+padding-bottom: 4%;}
+
+
+
+#aboutsusbottomdiv {
+ background-image: url("../imgs/rainforestandme.jpg");
+  max-width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.3);}
+
+
+
+.container-aboutus {
+width: 55%;
+padding: 2%;}
+
+
+.col-sm-aboutus{
+width: 65%;
+padding: 2%;}
+
+
+.commpara {
+font-family: 'Nanum Myeongjo', serif;
+font-weight:200;
+font-size: 30px;
+color: white;
+text-align: center;
+padding: 30%;
+padding-top: 10%;}
+
+
+.personalpara {
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 400;
+color: #777777;
+text-align: center;}
+
+
+
+/* -------------------------------------HOME PAGE PARAGRAPHS & CONTENT----------------------------------------*/
+
+
+div h4{
+    padding-top: 5%;}
+
+
+
+div p {
+font-family: 'Nanum Myeongjo', serif;
+color: black;
+font-size: 18px;
+text-align: center;
+width: 100%;
+float: center;
+padding-top: 10px;}
+
+
+
+/*Home page Gallery Navigation */
+
+.container-fluid {
+   width: 100%;}
+
+.container-fluid p {
+font-family: 'Nanum Myeongjo', serif;
+font-size: 16px;
+padding: 4%;
+float: left 25%;
+text-align: center;}
+
+
+.container-fluid h4 {
+    padding-top: 10%;
+    float: right 30%;}
+    
+
+.col-sm{
+    width: 100%;
+    padding: 5%;
+    margin: 0;}
+
+
+.carousel-item active{
+   height: 700px; }
+
+
+.carousel-item {
+height: 700px;}
+
+.container-fluid-commercial {
+    padding: 10%;}
 
 
 .text-block42{
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 5%;
-    padding-bottom: 5%;
-}
+    padding-bottom: 5%;}
 
 
 
@@ -794,8 +770,9 @@ text-decoration: none;
   -webkit-transition-duration: 3s;
   transition-duration: 3s;
   -webkit-transition-property: transform;
-  transition-property: transform;
-}
+  transition-property: transform;}
+
+
 
 .hvr-float-shadow:before {
   pointer-events: none;
@@ -829,6 +806,8 @@ text-decoration: none;
 
 
 
+/*Form for Contact Page*/
+
 form  {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 600;
@@ -836,65 +815,61 @@ form  {
 padding-bottom: 15%;
 padding-left: 10%;
 padding-right: 10%;
-color: #777777;
-}
-
+color: #777777;}
 
 
 
 .form-row {
     padding-top: 5%;
-    padding-bottom: 5%;
-}
+    padding-bottom: 5%;}
 
 
 
 btn-primary {
  font-family: 'Nanum Myeongjo', serif;
  font-weight: 600;
-padding: 2%;
-}
+padding: 2%;}
 
 
-
+/* Complete Gallery Page */
 
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box;}
+
 
 body {
   margin: 0;
-  font-family: Arial;
-}
+  font-family: 'Nanum Myeongjo', serif;}
+
 
 .header {
   text-align: center;
-  padding: 32px;
-}
+  padding: 32px;}
+
 
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 4px;
-}
+  padding: 0 4px;}
 
-/* Create four equal columns that sits next to each other */
+
+
 .column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
-}
+  padding: 0 4px;}
+
 
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
-}
+  width: 100%;}
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
+/* Responsive layout */
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -903,7 +878,7 @@ body {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive layout */
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
@@ -913,43 +888,38 @@ body {
 }
 
 
-
 #p-1 {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 18px;
-color: #777777;
-
-}
+color: #777777;}
 
 
 #p-2 {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 18px;
-color: #777777;
-
-}
+color: #777777;}
 
 #p-3 {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 18px;
-color: #777777;
-
-}
+color: #777777;}
 
 #p-4 {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 18px;
-color: #777777;
-
-}
+color: #777777;}
 
 .printsp {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 16px;
 color: #777777;
 text-align: center;
-float: center;
-}
+float: center;}
+
+
+
+/*-------------------------------------FOOTER--------------------------------------*/
+
 
 #footer {
         background-image: url("../imgs/cornwall.jpg");
@@ -970,18 +940,19 @@ float: center;
         margin: 2px;
         text-align: center;
         display: cover;
-        padding: 0, 0, 0, 0;
-}
+        padding: 0, 0, 0, 0;}
+
 
 .no-gutters {
   margin-right: 0;
   margin-left: 0;}
 
+
 .row no-gutters:after {
   content: "";
   display: table;
-  clear: both;
-}
+  clear: both;}
+
 
 @media screen and (max-width: 600px) {
   .col-sm {
@@ -989,42 +960,40 @@ float: center;
   }
 }
 
+
 #footer h5 {
 font-family: cinzel;
 font-size: 28px;
-padding-top: 20px;
-/*padding-bottom: 20px;*/
-}
+padding-top: 20px;}
+
 
 #footer p {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 18px;
 color: white;
 text-align: center;
-text-decoration: none;
-}
+text-decoration: none;}
 
 
 
 #footer div {
         color: #fafafa;
         background-color: rgba(0, 0, 0, 0.24);
-        text-decoration: none;
-      /*  width: 33%;*/
-       /* height: 400px;*/
-       /* display: cover;
-       /* padding: 40px 30px 0 50px;*/
-       /* text-align: center;
-       /* float: left;
-        margin: 2px;}*/
-}
+        text-decoration: none;}
 
+
+
+/*----------------------------------------------SOCIAL MEDIA FOOTER--------------------------------------*/
 
 .social-networks {
         text-align: center;}
 
+
+
 .social-networks li {
         display: inline;}
+
+
 
 .social-networks i {
         font-size: 120%;
