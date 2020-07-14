@@ -4,6 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
 @import url("hover-min.css");
 
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 header {
     margin: 0;}
 
@@ -86,8 +92,7 @@ header {
   height: 480px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  display: cover;}
+  background-repeat: no-repeat;}
 
 
 #printsheader {
@@ -136,21 +141,17 @@ header {
 
 
 .headsdivaboutus {
-  float: center;
   max-width: 100%;
   height: 480px;
   background-color: rgba(255, 145, 2, 0.315);
-  text-align: left;
-  display: contain;}
+  text-align: left;}
 
 
 .headsdiv{
-  float: center;
   max-width: 100%;
   height: 480px;
   background-color: rgba(0, 0, 0, 0.2);
-  text-align: left;
-  display: contain;}
+  text-align: left;}
 
 /* -------------------------------------HEADINGS----------------------------------------*/
 
@@ -220,6 +221,15 @@ animation-fill-mode: both;
   float: left;
   height: 500px;}
 
+
+#overlayouraim {
+  position: absolute; 
+  bottom: 0; 
+  width: 80%;
+  transition: .8s ease-in;
+  opacity:1;
+  padding: 20px;
+  height: 800px;}
 
 
 #overlay2 {
@@ -331,12 +341,11 @@ head2 {font-family: "cinzel decorative";
 
 
 .headsdiv1{
-   float: center;
-  max-width: 100%;
-  height: 480px;
-        background-color: rgba(0, 0, 0, 0.3);
-        text-align: left;
-        display: cover;}
+max-width: 100%;
+height: 480px;
+background-color: rgba(0, 0, 0, 0.3);
+text-align: left;
+background-size: cover;}
 
 
 
@@ -516,7 +525,7 @@ z-index: 10;}
 .navbar-expand-lg {
 width: 100%;
 position: fixed;
-background-color: rgba white;}
+background-color: white;}
 
 
 .nav-link {
@@ -541,6 +550,13 @@ letter-spacing: 3px;}
 width: 100%;
 height: auto;
 padding: 1%;
+}
+
+
+.peoplephotos{
+width: 100%;
+height: auto;
+padding: 4%;
 }
 
 
@@ -569,24 +585,60 @@ padding: 1%;
 
 
 
+#ouraimbg {
+    background-image: url("../imgs/bamboo2.jpg");
+    width: 100%;}
+ 
 
-/*
-.ouraimp {
-  /* The image used */
-  background-image: url("../imgs/bamboo.jpg");
-
-  /* Full height */
-  height: 1000px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#ouraimphoto {
+background-image: url("../imgs/bamboo2.jpg") no-repeat center;
+background-size: cover;
+height: 100%;
+position: relative;
 }
 
-.ouraimbg {
-   background-repeat: repeat-y;
-    background-size: cover;}
+
+#aboutusbtmphoto{
+height: 500px;
+width: 100%;
+background: url("../imgs/rainforestandme.jpg") no-repeat center center;
+overflow: hidden;
+position: relative;
+}
+
+#cover-text{
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 200;
+font-size: 18px;
+text-align: center;
+background-color:  rgba(0, 0, 0, 0.6);
+bottom: 10px;
+left: 60px;
+height: 320px;
+width: 420px;
+padding-top:60px;
+padding-left: 12px; 
+padding-right: 12px;
+}
+
+
+#cover-text, #cover-text p{
+color: white;
+padding: 3%;
+}
+
+
+#overlayaboutusp {
+  position: absolute;
+  bottom: 40%;
+  right: 50%;
+  left: 7%;
+  top: 8%;
+  height: 320px;
+  width: 480px;
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;}
 
 
 .row justify-content-center {
@@ -598,10 +650,7 @@ padding: 1%;
     font-weight: 600;
     color: black;
     padding: 4%;
-    text-align: center;}
-
-
-.col-6-text-box {
+    text-align: center;
    background-color: rgba(177, 247, 190, 0.932); 
    max-width: 50%;
    max-height: 80%;
@@ -624,6 +673,8 @@ padding: 1%;
 }
 
 
+
+
 .containerparaaboutus {
   position: relative;
   font-family: 'Nanum Myeongjo', serif;
@@ -632,19 +683,6 @@ padding: 1%;
   text-align: center;
   padding: 4%;}
 
-
-
-#overlayaboutusp {
-  position: absolute;
-  bottom: 40%;
-  right: 50%;
-  left: 7%;
-  top: 8%;
-  height: 320px;
-  width: 480px;
-  padding: 4%;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;}
 
 
 
@@ -661,12 +699,9 @@ padding-bottom: 4%;}
 
 
 
-#aboutsusbottomdiv {
- background-image: url("../imgs/rainforestandme.jpg");
+.aboutsusbottomdiv {
   max-width: 100%;
   height: 400px;
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.3);}
 
@@ -700,7 +735,24 @@ text-align: center;}
 
 
 
+
 /* -------------------------------------HOME PAGE PARAGRAPHS & CONTENT----------------------------------------*/
+
+
+#homecols1 {
+padding: 4%;
+padding-top: 6;
+}
+
+#homecols2 {
+padding: 4%;
+padding-top: 6;
+}
+
+#homecols3 {
+padding: 4%;
+padding-top: 6;
+}
 
 
 div h4{
@@ -714,7 +766,6 @@ color: black;
 font-size: 18px;
 text-align: center;
 width: 100%;
-float: center;
 padding-top: 10px;}
 
 
@@ -724,17 +775,16 @@ padding-top: 10px;}
 .container-fluid {
    width: 100%;}
 
+
 .container-fluid p {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 16px;
 padding: 4%;
-float: left 25%;
 text-align: center;}
 
 
 .container-fluid h4 {
-    padding-top: 10%;
-    float: right 30%;}
+    padding-top: 10%;}
     
 
 .col-sm{
@@ -920,13 +970,14 @@ color: #777777;}
 font-family: 'Nanum Myeongjo', serif;
 font-size: 16px;
 color: #777777;
-text-align: center;
-float: center;}
+text-align: center;}
 
 
 
 /*-------------------------------------FOOTER--------------------------------------*/
-
+a.hvr-float-shadow{
+     color: white;
+}
 
 #footer {
         background-image: url("../imgs/cornwall.jpg");
@@ -936,18 +987,16 @@ float: center;}
         max-width: 100%;
         height: auto;
         overflow: hidden;
-        margin: 0, 0, 0, 0;}
+        margin: 0;}
        
 
 .col-sm{
-   float: center;
   max-width: 100%;
   height: auto;
  color: #fafafa;
         margin: 2px;
         text-align: center;
-        display: cover;
-        padding: 0, 0, 0, 0;}
+        padding: 0;}
 
 
 .no-gutters {
