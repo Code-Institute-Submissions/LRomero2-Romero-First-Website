@@ -652,7 +652,6 @@ padding: 3%;
     padding: 4%;
     text-align: center;
    background-color: rgba(177, 247, 190, 0.932); 
-   max-width: 50%;
    max-height: 80%;
    animation-name: fadeInUp;
    animation-delay: 1s;
@@ -741,17 +740,17 @@ text-align: center;}
 
 #homecols1 {
 padding: 4%;
-padding-top: 6;
+padding-top: 6%;
 }
 
 #homecols2 {
 padding: 4%;
-padding-top: 6;
+padding-top: 6%;
 }
 
 #homecols3 {
 padding: 4%;
-padding-top: 6;
+padding-top: 6%;
 }
 
 
@@ -810,6 +809,23 @@ height: 700px;}
     padding-top: 5%;
     padding-bottom: 5%;}
 
+
+#printscols1 {
+padding-top:3%;
+}
+
+#printscols2 {
+padding-top:3%;
+}
+
+#printscols3 {
+padding-top:5%;
+}
+
+#printscols4 {
+padding-top:3%;
+padding-bottom: 3%;
+}
 
 
 
@@ -948,18 +964,21 @@ body {
 #p-1 {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 18px;
-color: #777777;}
+color: #777777;
+text-align: center;}
 
 
 #p-2 {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 18px;
-color: #777777;}
+color: #777777;
+text-align: center;}
 
 #p-3 {
 font-family: 'Nanum Myeongjo', serif;
 font-size: 18px;
-color: #777777;}
+color: #777777;
+text-align: center;}
 
 #p-4 {
 font-family: 'Nanum Myeongjo', serif;
@@ -975,9 +994,24 @@ text-align: center;}
 
 
 /*-------------------------------------FOOTER--------------------------------------*/
-a.hvr-float-shadow{
-     color: white;
+
+#footer a {
+color: white;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 18px;
+text-decoration: none;
 }
+
+
+
+.container-fluid a{
+color: #777777;
+font-family: "cinzel decorative";
+font-size: 32px;
+text-decoration: none;
+}
+
+
 
 #footer {
         background-image: url("../imgs/cornwall.jpg");
