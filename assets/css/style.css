@@ -537,6 +537,12 @@ letter-spacing: 3px;}
     padding-bottom: 20%;}
 
 
+.personalphotos{
+width: 100%;
+height: auto;
+padding: 1%;
+}
+
 
 .carousel-caption {
     font-family: 'Nanum Myeongjo', serif;
