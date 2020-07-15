@@ -231,7 +231,7 @@ animation-fill-mode: both;
   right: 0;
   margin: auto;
   transform: translateY(-150%);}
-
+/* ---------------Copied from Code Institute Lessons------------------*/
 @media screen and (max-width: 800px){
 #overlayouraim {
  column-count: 1; 
