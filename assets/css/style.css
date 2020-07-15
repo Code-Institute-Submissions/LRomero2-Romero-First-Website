@@ -223,13 +223,25 @@ animation-fill-mode: both;
 
 /* ---------------Copied from w3schools.com------------------*/
 #overlayouraim {
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;  
   width: 80%;
   transition: .8s ease-in;
   opacity:1;
-  padding: 20px;
-  height: 800px;}
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(-150%);}
+
+@media screen and (max-width: 800px){
+#overlayouraim {
+ column-count: 1; 
+ width: 35%;
+ margin-top:10%;
+ }
+
+}
+
+
 
 /* ---------------Copied from w3schools.com------------------*/
 #overlay2 {
