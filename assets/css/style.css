@@ -61,6 +61,17 @@ background-position-y: 100px;
   background-repeat: no-repeat;
   background-size: contain;}
 
+@media only screen and (max-width: 450px){
+.parallax2
+{background-image: url("../imgs/henry.jpg");
+  height: 920px;
+  width:  100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+}
 
 /* ---------------Copied from w3schools.com------------------*/
 .img-fluid {
@@ -626,7 +637,18 @@ font-size: 20px;
 text-align: center;
 padding: 10%;}
 
-
+@media only screen and (max-width: 450px){
+.compara
+{font-family: 'Nanum Myeongjo', serif;
+font-weight: 400;
+color: #777777;
+font-size: 30px;
+text-align: center;
+padding-left: 10%;
+padding-right: 10%;
+background-position-y: top;
+}
+}
 
 .container-animals{
 padding-top: 1%;
@@ -655,6 +677,18 @@ overflow: hidden;
 position: relative;
 }
 
+
+@media only screen and (max-width: 450px){
+#aboutusbtmphoto
+{height: 500px;
+width: 100%;
+background: url("../imgs/rainforestandme.jpg") no-repeat center center;
+overflow: hidden;
+position: relative;
+background-size: cover;
+}
+}
+
 /* ---------------Copied from Code Institute Lessons------------------*/
 #cover-text{
 font-family: 'Nanum Myeongjo', serif;
@@ -669,6 +703,23 @@ width: 420px;
 padding-top:60px;
 padding-left: 12px; 
 padding-right: 12px;
+}
+
+@media only screen and (max-width: 450px){
+#cover-text
+{font-family: 'Nanum Myeongjo', serif;
+font-weight: 200;
+font-size: 36px;
+text-align: center;
+background-color:  rgba(0, 0, 0, 0.5);
+bottom: 10px;
+left: 60px;
+height: 520px;
+width: 420px;
+padding-top:60px;
+padding-left: 12px; 
+padding-right: 12px;
+}
 }
 
 /* ---------------Copied from Code Institute Lessons------------------*/
