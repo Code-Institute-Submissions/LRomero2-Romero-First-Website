@@ -99,6 +99,18 @@ background-position-y: 100px;
   background-position: center;
   background-repeat: no-repeat;}
 
+ @media only screen and (max-width: 450px){
+#personalheader
+{background-image: url("../imgs/babyseyes.jpg");
+margin-top: 1px;
+padding-top:0;
+background-position-y: 100px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ background-position: cover;
+ background-size: 100%;
+}
+}
 
 /* ---------------Copied from Code Institute Lessons------------------*/
 #commheader {
@@ -358,8 +370,6 @@ animation-fill-mode: both;
   height: 658px;}
 
 
-
-
 /* ---------------Copied from Code Institute Lessons------------------*/
 .headsdiv1{
 max-width: 100%;
@@ -367,6 +377,16 @@ height: 480px;
 background-color: rgba(0, 0, 0, 0.3);
 text-align: left;
 background-size: cover;}
+
+ @media only screen and (max-width: 450px){
+.headsdiv1
+{max-width: 100%;
+height: 360px;
+background-color: rgba(0, 0, 0, 0.3);
+text-align: left;
+background-size: cover;
+}
+}
 
 /* ---------------Copied from Tutorialspoint.com------------------*/
 head2 {font-family: "cinzel decorative";
@@ -792,6 +812,17 @@ text-align: center;
 width: 100%;
 padding-top: 10px;}
 
+
+ @media only screen and (max-width: 450px){
+.welcome-para
+{font-family: 'Nanum Myeongjo', serif;
+color: black;
+font-size: 18px;
+text-align: center;
+width: 92%;
+vertical-align: top;
+}
+}
 
 
 /*Home page Gallery Navigation */
