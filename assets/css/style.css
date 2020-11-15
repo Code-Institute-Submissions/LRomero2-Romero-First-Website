@@ -26,6 +26,21 @@ header {
   background-repeat: no-repeat;
   background-size: cover;}
 
+  
+    @media only screen and (max-width: 450px){
+.parallax
+{background-image: url("../imgs/IMG_0890.JPG");
+margin-top: 1px;
+padding-top:0;
+background-position-y: 100px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background: cover;
+}
+}
+
+
 /* ---------------Copied from w3schools.com------------------*/
 .parallax1 {
   background-image: url("../imgs/friends.jpg");
